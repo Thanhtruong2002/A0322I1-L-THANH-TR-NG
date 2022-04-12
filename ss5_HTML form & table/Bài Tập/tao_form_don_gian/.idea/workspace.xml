@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7bfbd29-0d7f-48e2-840f-006e4d0fc9ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/[BT] Tao_form_don_gian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tao_form_don_gian.html" beforeDir="false" />
+    <list default="true" id="1ade4752-e641-4d1e-b5ed-9098cccaf477" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[BT] Tao_form_don_gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/[BT] Tao_form_don_gian.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="27dP5K6KnsWIY5WoSrRYmNaDsex" />
+  <component name="ProjectId" id="27hofQLpSlqQKMi7bLKLsMbfMrC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,12 +61,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e7bfbd29-0d7f-48e2-840f-006e4d0fc9ba" name="Default Changelist" comment="" />
-      <created>1649646805721</created>
+      <changelist id="1ade4752-e641-4d1e-b5ed-9098cccaf477" name="Default Changelist" comment="" />
+      <created>1649781781982</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649646805721</updated>
-      <workItem from="1649646810105" duration="2043000" />
+      <updated>1649781781982</updated>
+      <workItem from="1649781785871" duration="2899000" />
     </task>
     <servers />
   </component>

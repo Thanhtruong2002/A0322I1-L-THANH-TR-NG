@@ -2,31 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>[BT tạo form đơn giản</title>
+    <title>Tạo form đơn giản</title>
 </head>
 <body>
 <form method="post" action="url">
     <table>
         <tr>
-            <th>SỞ THÍCH CỦA BẠN</th>
-        </tr>
+            <th>
+                <td><h2>SỞ THÍCH CỦA BẠN</h2></td>
+            </th>
+        </>
         <tr>
             <td>Họ và tên</td>
             <td>
-                <input type="textbox" name="ho_va_ten" value=""/>
+                <input type="textbox" name="yourname" value=" ">
             </td>
         </tr>
         <tr>
-            <td>Email</td>
+            <td>Email </td>
             <td>
-                <input type="textbox" name="Email" value=""/>
+                <input type="textbox" name="email" value=" ">
             </td>
-        </tr>
-        <tr>
-            <td>Sở thích</td>
-            
         </tr>
     </table>
+    <table>
+        <tr>
+            <td>Sở thích</td>
+            <td> <input type="checkbox" name="TT" value=" "/> Thể thao</td>
+            <td><input type="checkbox" name="AN" value=" "/> Âm nhạc</td>
+            <td><input type="checkbox" name="ĐS" value=" "/> Đọc sách</td>
+        </tr>
+        <tr>
+            <td>
+            <td><input type="checkbox" name="AN" value=" "/> Lướt web</td>
+            <td><input type="checkbox" name="AN" value=" "/> Chơi game</td>
+            <td><input type="checkbox" name="AN" value=" "/>Điện ảnh</td>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="AN" value=" "/> Du lịch</td>
+        </tr>
+    </table>
+    <table>
+
+        <tr>
+            <td>
+                <input type="submit" value="Gửi thông tin">
+                <input type="submit" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
+
+
 </form>
 </body>
 </html>
