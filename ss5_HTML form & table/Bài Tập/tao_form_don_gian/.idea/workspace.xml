@@ -20,6 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ade4752-e641-4d1e-b5ed-9098cccaf477" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../[Bài tập] Tạo giao diện form đăng ký người dùng/Tao_giao_dien_form_đk_nguoi_dung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[BT] Tao_form_don_gian 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thực Hành/[Thực hành] Tạo form cơ bản/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thực Hành/[Thực hành] Tạo form cơ bản/.idea/[Thực hành] Tạo form cơ bản.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thực Hành/[Thực hành] Tạo form cơ bản/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thực Hành/[Thực hành] Tạo form cơ bản/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thực Hành/[Thực hành] Tạo form cơ bản/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thực Hành/[Thực hành] Tạo form cơ bản/simpleform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tạo form lấy survey khách hàng/Tao_form_lay_survey_khach_hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tạo form lấy survey khách hàng/Tao_form_lay_survey_khach_hang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[BT] Tao_form_don_gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/[BT] Tao_form_don_gian.html" afterDir="false" />
     </list>
@@ -67,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649781781982</updated>
       <workItem from="1649781785871" duration="3088000" />
+      <workItem from="1650043581020" duration="3061000" />
     </task>
     <servers />
   </component>
@@ -83,5 +93,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
