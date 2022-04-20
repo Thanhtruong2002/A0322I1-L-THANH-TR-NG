@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <img id="myImage" src="https://bom.so/d8eymJ" width="200">
+    <p>Click button below to move the image to right</p>
+    <script>
+        let imgObj = null;
+        imgObj = document.getElementById('myImage');
+        function init() {
+            imgObj = document.getElementById('myImage');
+            imgObj.style.position = 'relative';
+            imgObj.style.left ='0px'
+        }
+        function moveright() {
+            imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+        }
+        window.onload = init;
+    </script>
+    <input type="button" value="Click Me" onclick="moveright();"/>
+</form>
+</body>
+</html>
