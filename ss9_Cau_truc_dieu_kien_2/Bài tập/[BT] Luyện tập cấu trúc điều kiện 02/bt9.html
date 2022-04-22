@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let canh1 = parseInt(prompt("nhập số a: "));
+    let canh2 = parseInt(prompt("nhập số b: "));
+    let canh3 = parseInt(prompt("nhập số c: "));
+
+    if (canh1 >0 && canh2 >0 && canh3 > 0
+        && canh1 + canh2 > canh3
+        && canh2 + canh3 > canh1
+        && canh1 + canh3 > canh2){
+        document.write("Đây là 3 cạnh của 1 tam giác.");
+    }else{
+        document.write("Đây không phải 3 cạnh của 1 tam giác.");
+    }
+</script>
+</body>
+</html>

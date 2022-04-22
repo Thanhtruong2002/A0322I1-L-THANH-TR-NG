@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let he1 = parseInt(prompt("Nhập hệ số 1: "));
+    let he2 = parseInt(prompt("Nhập hệ số 2: "));
+    let octb = he2 / he1;
+
+    if(he1 == 0 && he2 == 0){
+        document.write("Phương trình vô số nghiệm.");
+    }else if(he1 == 0 && he2 != 0){
+        document.write("Phương trình vô nghiệm.");
+    }else if(he1 != 0) {
+        document.write("Phương trình có nghiệm là x = -b/a: -"+octb);
+    }
+</script>
+</body>
+</html>

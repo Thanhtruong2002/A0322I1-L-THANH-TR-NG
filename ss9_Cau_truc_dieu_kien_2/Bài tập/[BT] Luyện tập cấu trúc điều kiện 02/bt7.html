@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let hsa = parseInt(prompt("Nhập số a (a khác 0): "));
+    let hsb = parseInt(prompt("Nhập số b: "));
+    let hsc = parseInt(prompt("Nhập số c: "));
+    let delta = (hsb * hsb) - 4 * hsa * hsc;
+    let dnk = -hsb / (2 * hsa);
+    let x1 = (-hsb + delta) / (2*hsa);
+    let x2 = (-hsb - delta) / (2*hsa);
+
+    if(delta<0){
+        document.write("Phương trình vô nghiệm.");
+    }
+    else if(delta==0){
+        document.write("x1 = x2 = -b/(2*a): x1 = x2 = "+dnk);
+    }
+    else{
+        document.write("vậy có 2 nghiệm x1= "+x1+" và x2= "+x2);
+    }
+</script>
+</body>
+</html>
