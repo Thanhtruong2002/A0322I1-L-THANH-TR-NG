@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name = prompt("Nhập Tên học sinh: ");
+    let pointM1 = parseFloat(prompt(" Nhập điểm Toán giữa kỳ: "));
+    let pointM2 = parseFloat(prompt(" Nhập điểm Lý giữa kỳ: "));
+    let pointM3 = parseFloat(prompt(" Nhập điểm Hóa giữa kỳ: "));
+    let pointL1 = parseFloat(prompt(" Nhập điểm Toán cuối kỳ: "));
+    let pointL2 = parseFloat(prompt(" Nhập điểm Lý cuối kỳ: "));
+    let pointL3 = parseFloat(prompt(" Nhập điểm Hóa cuối kỳ: "));
+    let point = (pointL3 + pointM3 + pointL2 + pointM2 + pointL1 + pointM1)/6;
+
+    if(point >= 8){
+        document.write("Học sinh "+name+" được học sinh giỏi.");
+    }else if(point >= 6.5){
+        document.write("Học sinh "+name+" được học sinh tiên tiến.");
+    }else if(point >= 4){
+        document.write("Học sinh "+name+" được học sinh trung bình.")
+    }else{
+        document.write("Học sinh "+name+" được học sinh yếuyếu.")
+    }
+
+</script>
+</body>
+</html>

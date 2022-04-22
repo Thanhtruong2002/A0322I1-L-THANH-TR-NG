@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let doanhso = parseFloat(prompt("Nhập daonh số bán hàng (USD): "));
+    let duoinam = doanhso * 15 / 100;
+    let duoimuoi = doanhso * 25 / 100;
+    let duoimottram = doanhso * 35 / 100;
+
+    if(doanhso <= 5000){
+        document.write("Số hoa hồng nhận được là 15%: "+duoinam+"$");
+    }else if(doanhso <= 10000){
+        document.write("Số hoa hồng nhận được là 25%: "+duoimuoi+"$");
+    }else if(doanhso > 10000) {
+        document.write("Số hoa hồng nhận được là 35%: "+duoimottram+"$");
+    }else {
+        document.write("Bạn chưa nhập số thu nhập, cin mời nhập lại.");
+    }
+</script>
+</body>
+</html>

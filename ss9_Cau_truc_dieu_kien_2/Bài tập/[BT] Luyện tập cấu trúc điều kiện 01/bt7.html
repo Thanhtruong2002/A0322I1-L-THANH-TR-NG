@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Phí thuê bao bắt buộc là 25 nghìn.<br>600 đồng cho mỗi gọi của 50 phút đầu tiên.<br>400 đồng cho mỗi phút gọi của 150 phút tiếp theo.<br>200 đồng cho bất kỳ mỗi phút nào sau 200 phút đầu tiên.</p>
+<script>
+    let phutgoi = parseFloat(prompt("Nhập số phút gọi: "));
+    let codinh = 25000;
+    let dautien = 600 *phutgoi;
+    let cgiua = (phutgoi - 50) * 400 + 50 * 600;
+    let ctp = (phutgoi - 200) * 200 + 150 * 400 + 50 * 600;
+
+    if(phutgoi <= 50){
+        document.write("Tiền cước của bạn là: "+(codinh+dautien)+"VND (Bao gồm cước cố định là 25.000 VND)");
+    }else if(phutgoi >= 150){
+        document.write("Tiền cước của bạn là: "+(codinh+cgiua)+"VND (Bao gồm cước cố định là 25.000 VND)");
+    }else if(phutgoi > 200){
+        document.write("Tiền cước của bạn là: "+(codinh+ctp)+"VND (Bao gồm cước cố định là 25.000 VND)");
+    }else{
+        document.write("Bạn chưa nhập số phút dùng thuê bao, vui lòng nhập.");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soa = parseInt(prompt("Nhập số nguyên a: "));
+    let sob = parseInt(prompt("Nhập số nguyên b: "));
+    let soc = parseInt(prompt("Nhập số nguyên c: "));
+
+    if(soa > sob && soa > soc){
+        document.write("a là số lớn nhất trong 3 số.");
+    }else if(sob > soa && sob > soc){
+        document.write("b là số lớn nhất trong 3 số.");
+    }else if(soc > sob && soc > soa){
+        document.write("c là số lớn nhất trong 3 số.");
+    }else if (soa == sob || soa == soc || sob == soc) {
+        document.write("các số a, b hoặc c bằng nhau, vui lòng nhập lại");
+    }else{
+        document.write("Bạn chưa nhập các số, vui lòng nhập lại.")
+    }
+</script>
+</body>
+</html>
