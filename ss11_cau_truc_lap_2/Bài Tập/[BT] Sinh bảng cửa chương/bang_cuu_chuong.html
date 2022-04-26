@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Bảng Cửu Chương</h2>
+<script>
+    let bangcuuchuong = "<table border='1' width='100%'>";
+    for (var i = 1; i <= 9; i++){
+        bangcuuchuong = bangcuuchuong + "<tr>"
+        for (var j = 2; j <= 6; j++)
+            bangcuuchuong = bangcuuchuong + ("<td>" +j+ "x" +i+ "=" + (j*i) + "</td>");
+    }
+    bangcuuchuong = bangcuuchuong + "</tr>"
+    bangcuuchuong = bangcuuchuong + "</table>"
+    document.write(bangcuuchuong);
+</script>
+</body>
+</html>
+
