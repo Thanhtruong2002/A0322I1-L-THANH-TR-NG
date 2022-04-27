@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<p>Hiển Thị các số nguyên tố</p>
+<script>
+    let number = parseInt(prompt("Nhập số lượng sô nguyên tố muôn hiện ra:"));
+    let N = 4
+    let kt = 1;
+    let i = 2
+    let j = 2
+    document.write(number + ' số nguyên tố đầu tiên là:2 ');
+    for (; i <= number;){
+        for ( ;j <= Math.sqrt(N) ;j++) {
+            if (N%j==0) {
+                kt = 0;
+                break;
+            }
+        }
+        if (kt != 0) {
+            i++;
+            document.write(" "+N)
+        }
+        kt = 1;
+        N++;
+    }
+</script>
+</body>
+</html>
