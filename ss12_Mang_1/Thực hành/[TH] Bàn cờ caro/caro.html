@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Caro Game Simple</h3>
+<p id="carogame" />
+
+
+
+<script>
+    let caro = document.getElementById("carogame");
+    let boardArray = [];
+    let dataHTML = '';
+
+    for( let i = 0; i < 5;i ++){
+        boardArray[i] = new Array(0,0,0,0,0);
+    }
+
+    for(let i=0; i<5; i++){
+        dataHTML += "<br/>";
+        for (let j = 0; j < 5; j++) {
+            dataHTML += boardArray[i][j] + "&nbsp;&nbsp;";
+        }
+    }
+
+    dataHTML += '<br> <Br> <input type="button" value="Change Value" onclick="changeValue()">'
+
+    caro.innerHTML = dataHTML;
+
+
+    function changeValue() {
+        let x = parseInt(prompt('Nhập x ')) ;
+        let y = parseInt(prompt('Nhập y ')) ;
+
+        boardArray[x][y] = 'x';
+
+        for(let i =0; i<5; i++){
+            dataHTML += "<br>"
+            for(let j =0; j<5; j ++){
+                dataHTML += boardArray[i][j] + "&nbsp;&nbsp;";
+            }
+        }
+        dataHTML += '<br> <Br> <input type="button" value="Change Value" onclick="changeValue()">'
+
+        caro.innerHTML =  dataHTML;
+
+    }
+
+
+
+
+</script>
+
+</body>
+</html>
