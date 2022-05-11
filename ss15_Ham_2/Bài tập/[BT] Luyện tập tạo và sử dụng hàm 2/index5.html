@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 5</title>
+</head>
+<body>
+<script>
+    function minThreeNum(mot,hai,ba) {
+        if (mot < hai && mot < ba) {
+            return mot;
+        }
+        if (hai < mot && hai < ba) {
+            return hai;
+        }
+        if (ba < hai && ba < mot) {
+            return ba;
+        }
+    }
+    alert(minThreeNum(1,3,2));
+</script>
+</body>
+</html>

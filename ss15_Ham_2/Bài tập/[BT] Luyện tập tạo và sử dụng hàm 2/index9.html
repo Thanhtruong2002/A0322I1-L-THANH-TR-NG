@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 9</title>
+</head>
+<body>
+<script>
+    let array = ['a','b','c','d','e','f','g','h','a','b'];
+    let kiTu  = 'b';
+
+    function countKiTu(arr, w){
+        let count = 0;
+        for(let index in arr){
+            if(arr[index] == w){
+                count += 1;
+            }
+        }
+        if(count == 0){
+            return -1;
+        }else{
+            return count;
+        }
+    }
+    alert(countKiTu(array,kiTu));
+</script>
+</body>
+</html>
