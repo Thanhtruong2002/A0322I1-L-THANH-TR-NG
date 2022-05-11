@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 5</title>
+</head>
+<body>
+<script>
+
+    let arrayOne = ['Polaris','Aldebaran','Deneb','Vega','Altair','Dubhe','Regulus'];
+    let arrayTwo = ['Ursa Minor','Tarurus','Cygnus','Lyra','Aquila','Ursa Major','Leo'];
+
+    function findStringFunction(value) {
+        if(arrayOne.indexOf(value) > -1){
+            let index = arrayOne.indexOf(value);
+            return arrayTwo[index];
+        }else{
+            return 'không tìm thấy ngôi sao nào';
+        }
+    }
+
+    let inputString = prompt('Nhập vào tên một vì sao');
+    alert(findStringFunction(inputString));
+
+</script>
+
+</body>
+</html>

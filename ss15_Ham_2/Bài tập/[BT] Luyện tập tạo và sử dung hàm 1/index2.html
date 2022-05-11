@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 2</title>
+</head>
+<body>
+<input type="number" id="input" oninput="calculate()"/> +1 = <span id="output">++</span>
+<script>
+
+    function addOneFunction(num) {
+        return num + 1;
+    }
+
+    function calculate(){
+        let input = parseFloat(document.getElementById('input').value);
+        document.getElementById('output').innerText = addOneFunction(input);
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 3</title>
+</head>
+<body>
+number 1: <input type="number" id="number1" /><br><br>
+number 2: <input type="number" id="number2" />
+<input type="submit" onclick="submitFunction()" value="Enter" />
+<script>
+    function bai3Function(a,b) {
+        if(a>b){
+            return 'số đầu lớn hơn số thứ hai';
+        }else{
+            return a+b;
+        }
+    }
+
+
+    function submitFunction() {
+        let inputOne = parseInt(document.getElementById('number1').value);
+        let inputTwo = parseInt(document.getElementById('number2').value);
+        alert(bai3Function(inputOne, inputTwo));
+    }
+
+
+
+</script>
+</body>
+</html>
