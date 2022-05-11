@@ -6,6 +6,25 @@
 </head>
 <body>
 <script>
+    <script>
+
+    let numbers = [-3, 5, 19, 3, 2, 10, 12];
+    let dem = 0;
+    let max = numbers[0];
+    let position;
+
+    numbers.forEach(function(value){
+        if(value > max){
+            max = value;
+            position = dem;
+        }
+        dem++
+    })
+
+    alert("Array max ở vị trí "+position+" có giá trị là "+max);
+
+
+</script>
 </script>
 </body>
 </html>
