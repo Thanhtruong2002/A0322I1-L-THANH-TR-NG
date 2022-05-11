@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>từ điển</title>
+</head>
+<body>
+<input type="text" id="inputEnglish" />
+<input type="submit" value="Dịch" onclick="dichFunction()">
+<script>
+    let english = [
+        'go',
+        'swim',
+        'upstream',
+        'up',
+        'down',
+        'left',
+        'right',
+        'no',
+        'yes',
+        'pass',
+        'fail',
+        'late',
+        'night',
+        'morning',
+        'today',
+        'but',
+        'code',
+        'gym',
+        'hui'
+    ]
+    let vietnamese = [
+        'đi',
+        'bơi',
+        'ngược dòng',
+        'lên',
+        'xuống',
+        'trái',
+        'phải',
+        'không',
+        'có',
+        'qua',
+        'thất bại',
+        'trễ',
+        'tối',
+        'sáng',
+        'hôm nay',
+        'nhưng',
+        'mã',
+        'phòng tập thể dục',
+        'Gà công nghiệp'
+    ]
+    function dichFunction() {
+        let input = document.getElementById('inputEnglish').value;
+
+        if(english.indexOf(input) > -1){
+            alert('nghĩa từ '+input +' là '+vietnamese[english.indexOf(input)]);
+        }else {
+            alert('không tìm thấy.');
+        }
+
+
+    }
+</script>
+</body>
+</html>
