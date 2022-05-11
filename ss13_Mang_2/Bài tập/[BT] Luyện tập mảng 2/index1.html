@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 1</title>
+</head>
+<body>
+<p id="output"></p>
+
+<script>
+    let a = [
+        [1, 2, 1, 24],
+        [8, 11, 9, 4],
+        [7, 0, 7, 27],
+        [7, 4, 28, 14],
+        [3, 10, 26, 7]
+    ];
+    let result = "<br>";
+
+    for(let i in a){
+        result += "row "+i+ "<br>";
+        for(let j in a[i]){
+            result += a[i][j] + '<br>';
+        }
+    }
+
+    document.getElementById('output').innerHTML = result;
+
+</script>
+</body>
+</html>
