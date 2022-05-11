@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let stringThe = 'The Quick Brown Fox';
+    let arr =  stringThe.toString();
+    let UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let LOWER = 'abcdefghijklmnopqrstuvwxyz';
+    let rs = [];
+
+    for(let x = 0; x < arr.length; x++) {
+
+        if(LOWER.indexOf(arr[x]) > 0){
+            rs.push(arr[x].toUpperCase());
+        }else if(UPPER.indexOf(arr[x]) > 0){
+            rs.push(arr[x].toLowerCase());
+        }else{
+            rs.push(arr[x]);
+        }
+
+    }
+    alert(rs.join(""));
+</script>
+</body>
+</html>
