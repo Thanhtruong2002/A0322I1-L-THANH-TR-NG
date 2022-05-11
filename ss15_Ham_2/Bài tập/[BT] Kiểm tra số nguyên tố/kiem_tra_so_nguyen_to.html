@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function isPrime(number){
+        if(number > 1){
+            let dem = 0;
+            let giamDan = number ;
+
+            while(giamDan > 0){
+                if(number % giamDan == 0){
+                    dem +=1;
+                }
+                giamDan -= 1;
+            }
+            if(dem == 2){
+                return 'Là số nguyên tố';
+            }else{
+                return 'không phải là số nguyên tố';
+            }
+        }else{
+            return 'không phải là số nguyên tố';
+        }
+
+    }
+
+    alert(isPrime(6));
+
+
+</script>
+</body>
+</html>
