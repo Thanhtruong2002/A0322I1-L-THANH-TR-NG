@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 3</title>
+</head>
+<body>
+<script>
+    let array=[];
+
+    for(let dem = 0;dem < 10; dem++){
+        array.push(Math.floor(Math.random() * 51));
+    }
+
+    let max = array[0];
+    let sum = 0;
+
+    for(let dem2 = 0;dem2 < array.length; dem2++){
+        if(array[dem2] > max){
+            max = array[dem2];
+        }
+        sum += array[dem2];
+    }
+    let avg = sum/array.length;
+
+    alert('phần tử có giá trị lớn nhất trong mảng là '+max+' và giá trị trung bình là  '+avg);
+
+</script>
+</body>
+</html>

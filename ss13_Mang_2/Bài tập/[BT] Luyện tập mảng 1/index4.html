@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 4</title>
+</head>
+<body>
+<input type="number" id="input">
+<input type="submit" value="Reverse" onclick="reverseFunction()">
+<input type="submit" value="Add" onclick="addFunction()">
+
+<script>
+    let array= []
+
+    function addFunction() {
+        let input = parseInt(document.getElementById("input").value);
+        array.push(input);
+    }
+    function reverseFunction() {
+        let temp;
+
+        for(let i = 0; i < array.length/2; i++) {
+            temp = array[i];
+            array[i] = array[array.length-1-i];
+            array[array.length-1-i] = temp;
+        }
+
+        alert(array);
+    }
+</script>
+</body>
+</html>

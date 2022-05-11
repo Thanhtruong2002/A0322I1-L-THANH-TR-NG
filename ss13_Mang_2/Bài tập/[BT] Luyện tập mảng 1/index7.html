@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 7</title>
+</head>
+<body>
+<script>
+    let array= [
+        3,
+        4,
+        -21,
+        -1,
+        -2,
+        -12,
+        64,
+        27,
+        -99,
+        7
+    ];
+
+    let inputV = parseInt(prompt('Nhập vào sô nguyên V'));
+
+    if(array.indexOf(inputV)> -1 ){
+        array.splice(array.indexOf(inputV), 1)
+        array.push(0)
+    }else{
+        alert('V is not in the array');
+    }
+
+    alert(array);
+</script>
+</body>
+</html>
