@@ -1,0 +1,46 @@
+1/  Gít là gì?
+- là một hệ thống quản lý phiên bản phân tán ( version Control System), 
+nó là một trong những hệ thống quản lý phiên bản phân tán phổ biến nhất
+hiện nay. Git cung cấp cho mỗi lập trình viên kho lưu trữ (repository) 
+riêng chứa toàn bộ lịch sử thay đổi.
+2/ Phân biệt Remote repository và Local repository:
+* Remote repository:
+là repository đê chia sẻ cho nhiều giữa nhiều người và bố trí trên server
+chuyên dụng.
+* Local repository:
+là repository bố trí trên máy tính của bản thân mình, dành cho người dùng
+sử dụng.
+3/ Phân biệt let, var, const:
+* var:
+- Chúng ta có thể khai báo đa dạng các kiểu biến như number, string, boolean, ect.
+- Trừ trường hợp khai báo trong 1 function ( khi đó biến var se có scope là
+function/ locally scoped).
+* let:
+- Một trong số nhưng nguyên nhân khiến let có thể thay thế var để xử lý vấn đề nêu trên
+là vì let được khai báo sẽ có scope là block scoped chứ không phải globall hay locally scoped.
+- let cho phép chúng ta cập nhật giá trị của biến chứ không cho phép chúng ta tái khái báo lại biến đó.
+* const:
+- Tương tự như let thì chúng ta thêm 1 kiểu khai báo nữa là const.
+- Trong biến const nếu trường hợp kiểu của biến là string, boolean, null và underfined thì 
+chúng ta sẽ không thể khai báo hay cập nhật giá trị mới để thay thế giá trị trước đó của biến.
+4/ phân biệt if và switch case:
+* switch:
+Lênh switch case có công dụng giống như lệnh if else đó là đều dùng để rẻ nhánh chương trình,
+ ứng với mỗi nhánh sẽ có một điều kiện cụ thể và điều kiện đó phải sử dụng toán tử so sánh bằng,
+ còn đối với lệnh if else thì bạn có thể truyền vào một mệnh đề bất kì và sử dụng nhiều toán tử khác nhau.
+5/ Cú pháp khởi tạo vòng for:
+* Nguyên lý hoạt động vủa vòng lặp for là:
+<khởi đầu> khởi tạo giá trị của biến và chỉ thực hiện một lần duy nhất. 
+Sau đó, nếu <điều kiện lặp> đúng thì thực thi các dòng lực trong vòng for.
+Nếu <điều kiện sai> thì kết thúc vòng lặp.
+6/ Function là gì?
+* Function (Hàm) là một tập hợp những đoạn mã dùng để thực hiện một nhiệm vụ nào đó. Nó có thể được gọi 
+và tái sử dụng nhiều lần. Bạn có thể chuyển thông tin vào một hàm. Đồng thời, nó cũng có thể gửi trả thông tin trở lại.
+7/ Phân biệt tham trị và tham chiếu:
+* Kiểu tham trị:
+- Kiểu này dùng cho các kiểu dữ liệu nguyên thuỷ: 
+String, Number, Boolean, BigInt, Symbol, undefined, null.
+ Kiểu này thì cũng khá là đơn giản, khi gán cho nó một giá trị thì nó sẽ lưu lại giá trị đó và tại một thời điểm thì chỉ lưu một giá trị.
+* Kiểu tham chiếu:
+- Kiểu này thì phức tạp hơn kiểu tham trị và được dùng cho các kiểu dữ liệu phức tạp:
+ Object, Array, Function. Ở đây khi gán cho nó một giá trị thì nó không lưu lại giá trị này mà thực chất nó lưu lại địa chỉ của ô nhớ lưu giá trị này.

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 1</title>
+</head>
+<body>
+<form>
+    <table style="border-collapse: collapse" border="1">
+        <tr style="background: gold" >
+            <th colspan="2" style="color: black">NHẬP THÔNG TIN NGƯỜI SỬ DỤNG DỊCH VỤ TẠI KHU NGHỈ DƯỠNG FURAMA</th>
+        </tr>
+        <tr style="background: darkgray">
+            <td style="color: black">Họ và tên</td>
+            <td>
+                <input type="textbox" value="" name="name"/>
+            </td>
+        </tr>
+        <tr style="background: khaki">
+            <td style="color: black">Số CMND/CCCD: </td>
+            <td>
+                <input type="textbox" name="number CCCD" value="" width="100%"/>
+            </td>
+        </tr>
+        <tr style="background: darkgray">
+            <td>Ngày, tháng năm sinh: </td>
+            <td>
+                <input type="date" name="date" width="100%"/>
+            </td>
+        </tr>
+        <tr style="background: khaki">
+            <td>Email: </td>
+            <td>
+                <input type="email" name="email"/>
+            </td>
+        </tr>
+        <tr style="background: darkgray">
+            <td>Địa chỉ: </td>
+            <td>
+                <input type="text" name="diachi"/>
+            </td>
+        </tr>
+        <tr style="background: khaki">
+            <td>Loại Customer: </td>
+            <td>
+                <select>
+                    <option>Diamond</option>
+                    <option>Platinum</option>
+                    <option>Gold</option>
+                    <option>Member</option>
+                </select>
+            </td>
+        </tr>
+        <tr style="background: darkgray">
+            <td>Giảm giá: </td>
+            <td>
+                <input type="text"/>
+            </td>
+        </tr>
+        <tr style="background: khaki">
+            <td>Số lượng: </td>
+            <td>
+                <input type="number" name="soluong"/>
+            </td>
+        </tr>
+        <tr style="background: darkgray">
+            <td>Số ngày thuê: </td>
+            <td>
+                <input type="number"/>
+            </td>
+        </tr>
+        <tr style="background: khaki">
+            <td>Loại dịch vụ: </td>
+            <td>
+                <select id="service">
+                    <option value="villa">Villa</option>
+                    <option value="house">House</option>
+                    <option value="room">Room</option>
+                </select>
+            </td>
+        </tr>
+        <tr style="background: darkgray">
+            <td>Loại phòng thuê: </td>
+            <td>
+                <select>
+                    <option>Vip</option>
+                    <option>Business</option>
+                    <option>Normal</option>
+                </select>
+            </td>
+        </tr>
+        <tr style="background: khaki">
+            <td>Gửi thông tin </td>
+            <td>
+                <input type="submit" name="submit" value="submit"/>
+            </td>
+        </tr>
+    </table>
+</form>
+<script>
+    function getTotalPayment() {
+      let service =  document.getElementById("service").value;
+    }
+</script>
+</body>
+</html>
